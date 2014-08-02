@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "com.phonegap.sample"
+        versionCode = "10" 
+        version     = "1.0.0" >
+
+    <!-- versionCode is optional and Android only -->
+
+    <name>Splashscreen Example</name>
+
+    <description>
+        An example for showcasing custom Splashscreen. 
+    </description>
+
+    <author href="https://appsonmob.com" email="rahat.khanna@yahoo.co.in">
+        Rahat Khanna
+    </author>
+
+    <gap:platform name="android" />
+<gap:splash src="phonegap-mdi.png" />
+<gap:splash src="phonegap-mdpi.png" gap:platform="android" gap:density="mdpi" />
+<gap:splash src="phonegap-hdpi.png" gap:platform="android" gap:density="hdpi" />
+<gap:splash src="phonegap-xhdpi.png" gap:platform="android" gap:density="xhdpi" />
+<gap:splash src="phonegap-xxhdpi.png" gap:platform="android" gap:density="xxhdpi" />    
+    
+    <preference name="SplashScreenDelay" value="7500"/>
+</widget>
